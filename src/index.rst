@@ -2,13 +2,13 @@
 PHPUnit Manual
 ==============
 
-Edition for PHPUnit |version|. Updated on |today|.
+PHPUnit |version| için Türkçe dokümentasyon. Son güncelleme |today|.
 
 Sebastian Bergmann
 
-This work is licensed under the Creative Commons Attribution 3.0 Unported License.
+Bu çalışma Creative Commons Attribution 3.0 Unported Lisansı ile lisanslanmıştır.
 
-Contents:
+İçindekiler:
 
 .. toctree::
    :maxdepth: 3
