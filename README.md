@@ -1,17 +1,16 @@
-# Translations
+# Çeviriler
 
-Each translation of the documentation is maintained in a separate 
-repository:
+Her bir çeviri kendisi için ayrılmış özel bir repoda saklanır ve yönetilir:
 
-* [English Documentation](https://github.com/sebastianbergmann/phpunit-documentation-english)
-* [Spanish Documentation](https://github.com/sebastianbergmann/phpunit-documentation-spanish)
-* [French Documentation](https://github.com/sebastianbergmann/phpunit-documentation-french)
-* [Brazilian Portuguese Documentation](https://github.com/sebastianbergmann/phpunit-documentation-brazilian-portuguese)
-* [Japanese Documentation](https://github.com/sebastianbergmann/phpunit-documentation-japanese)
-* [Simplified Chinese Documentation](https://github.com/sebastianbergmann/phpunit-documentation-chinese)
-* [Russian Documentation](https://github.com/sebastianbergmann/phpunit-documentation-russian)
+* [İngilizce Dokümentasyon](https://github.com/sebastianbergmann/phpunit-documentation-english)
+* [İspanyolca Dokümentasyon](https://github.com/sebastianbergmann/phpunit-documentation-spanish)
+* [Fransızca Dokümentasyon](https://github.com/sebastianbergmann/phpunit-documentation-french)
+* [Brazilian Portuguese Dokümentasyon](https://github.com/sebastianbergmann/phpunit-documentation-brazilian-portuguese)
+* [Japonca Dokümentasyon](https://github.com/sebastianbergmann/phpunit-documentation-japanese)
+* [Basitleştirilmiş Çince Dokümentasyon](https://github.com/sebastianbergmann/phpunit-documentation-chinese)
+* [Rusça Dokümentasyon](https://github.com/sebastianbergmann/phpunit-documentation-russian)
 
-## Adding a new translation
+## Yeni çevirilerin eklenmesi
 
 If you want to create a new translation, please open an issue in the issue
 tracker of the English documentation, stating which language you would like to
@@ -21,15 +20,15 @@ Ideally, you would already have prepared a first version based on a fork or
 a copy of the English documentation, which will then be imported into the 
 official repository. 
 
-# Building the Documentation
+# Dokümentasyonun Hazırlanması
 
-## Requirements
+## Gereksinimler
 
 - Python
 - [Sphinx](http://www.sphinx-doc.org/)
 - [Read the Docs Sphinx Theme](https://github.com/rtfd/sphinx_rtd_theme)
 
-## Building the HTML Documentation
+## HTML Dokümentasyonun Hazırlanması
 
 To build the complete documentation run:
 
@@ -39,16 +38,16 @@ $ make html
 
 Afterwards you will find the HTML files in `build/html`.
 
-## Proofreading Automation
+## Proofreading Otomasyonu
 
-### Setup
+### Kurulumu
 
 ```
 $ pip install docutils-ast-writer
 $ npm install
 ```
 
-### Usage
+### Kullanımı
 
 ```
 $ ./node_modules/.bin/textlint src
